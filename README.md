@@ -14,3 +14,6 @@ http://usui.moo.jp/rpg_tukuru.html
 
 ゲームプログラマになる前に覚えておきたい技術
 http://www.shuwasystem.co.jp/products/7980html/2118.html
+
+South Kanto Development Organization.org
+http://skdo.org/
