@@ -3,12 +3,15 @@ import DX_lib;
 import gamemain;
 import std.string;
 
-void main()  // Ｄ言語ではメイン関数をこう書く
+void main()
 {
-	// ウィンドウ化
+	//ウィンドウ化
 	dx_ChangeWindowMode(true);
 
-	// DXライブラリ初期化処理
+	//ログの出力を停止する
+	dx_SetOutApplicationLogValidFlag(false);
+
+	//DXライブラリ初期化処理
 	if(dx_DxLib_Init() == -1) {
 		// エラーが起きたら直ちに終了
 		return;
